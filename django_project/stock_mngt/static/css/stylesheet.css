@@ -1,0 +1,74 @@
+body {
+    background-color: #ffffff;
+    background-image: url("../img/leaves.webp");
+    height:100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Making the title centered */
+.table{
+        font-size: 13px;
+        text-align: center;
+        width: 95%;
+        margin: auto;
+        text-align: center;
+}
+
+/* Making alternate colors for table rows */
+.table tr:nth-child(odd){
+    background: #B8CAE4;
+}
+
+.table tr:nth-child(even){
+    background: #dae5f4;
+}
+
+.info{
+    list-style: None;
+    background-color: #2e6da4;
+    color: white;
+    text-align: center;
+}
+
+th{
+    background-color: #337ab7;
+    color: white;
+}
+
+/* displaying table */
+.display_table{
+    border-top-left-radius:12px;
+    border-top-right-radius:12px;
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    padding-left: 5px;
+    padding-right: 5px;
+    box-shadow: 5px 5px 6px 6px #2e6da4;
+}
+
+/* table header */
+.page_header{
+    color: #337ab7;
+    font-size: 30px;
+    text-align: center;
+    display: block;
+    font-weight: bolder;
+}
+
+/* app info */
+#version-display{
+    background-color: white;
+    color: black;
+    text-align: center;
+    display: inline;
+    font-weight:bolder;
+    padding:15px;
+    position: fixed;
+    top:60px;
+    left:-5px;
+    z-index:3000;
+    border-top-right-radius:20px;
+    border-bottom-right-radius:20px;
+}
